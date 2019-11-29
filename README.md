@@ -1,5 +1,9 @@
 # react-native-rndrift
 
+![React Native Drift Demo](demo.gif)
+
+
+
 ## Getting started
 
 `$ npm install react-native-rndrift --save`
