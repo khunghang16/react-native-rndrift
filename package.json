@@ -1,7 +1,7 @@
 {
   "name": "react-native-rndrift",
   "title": "React Native Rndrift",
-  "version": "1.0.8",
+  "version": "1.1.2",
   "description": "Drift module for React Native",
   "main": "index.js",
   "scripts": {
