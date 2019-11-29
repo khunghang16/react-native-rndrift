@@ -1,8 +1,8 @@
 {
   "name": "react-native-rndrift",
   "title": "React Native Rndrift",
-  "version": "1.0.0",
-  "description": "TODO",
+  "version": "1.0.8",
+  "description": "Drift module for React Native",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

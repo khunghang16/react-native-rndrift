@@ -14,13 +14,16 @@ Pod::Spec.new do |s|
   # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
   s.authors      = { "Saurabh Chauhan" => "saurabh.chauhan@smartdatainc.net" }
   s.platforms    = { :ios => "9.0" }
-  s.source       = { :git => "https://github.com/chauhan-saurabh/react-native-rndrift.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/chauhan-saurabh/react-native-rndrift.git", :tag => "#{s.version}", submodules: false }
 
   s.source_files = "ios/**/*.{h,m,swift}"
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency "Drift'
+  s.dependency "Drift"
+  s.dependency "SVProgressHUD"
+
+
   # ...
   # s.dependency "..."
 end
