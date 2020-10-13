@@ -41,7 +41,7 @@ RCT_EXPORT_METHOD(showConversations)
 RCT_EXPORT_METHOD(showCreateConversation)
 {
   RCTLogInfo(@"Open Drift new conversations");
-  [Drift showCreateConversation];
+  [Drift showCreateConversationWithInitialMessage:@""];
 }
 
 @end
