@@ -28,7 +28,7 @@ RCT_EXPORT_METHOD(registerUser:(NSString *)id email: (NSString *)email)
 RCT_EXPORT_METHOD(logout)
 {
   RCTLogInfo(@"Logout Drift user");
-  [Drift logout];
+  [Drift showCreateConversationWithInitialMessage:@""];
 }
 
 
